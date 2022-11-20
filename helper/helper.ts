@@ -18,7 +18,6 @@ class Helper{
         }
         axios.post("https://orders-zkbs.onrender.com/postOrder",{where:body},{headers:{'content-type': 'application/json'}}
         ).catch((err)=>{
-            console.log(err,"check errr")
         })
     }
 }
