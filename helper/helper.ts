@@ -11,7 +11,7 @@ type orderedProductType = {
 
 class Helper{
 
-    sendOrderedProduct(orderredProducts:orderedProductType,deviceId:String){
+    sendOrderedProduct(orderredProducts:orderedProductType[],deviceId:String){
         const body = {
             deviceId:deviceId,
             products:orderredProducts
